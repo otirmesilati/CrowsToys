@@ -1,3 +1,7 @@
 #include <stdio.h> 
 
-int main() {return 0;}
+int main() 
+{
+    printf("Hi");
+    return 0;
+}
