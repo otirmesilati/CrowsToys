@@ -1,7 +1,13 @@
 #include <stdio.h> 
+#include <windows.h>
 
 int main() 
 {
-    printf("Hi");
-    return 0;
+    MessageBoxW(
+        NULL,
+        L"My first message box!",
+        L"Hello World!",
+        MB_YESNOCANCEL
+    );
+    return EXIT_SUCCESS;
 }
